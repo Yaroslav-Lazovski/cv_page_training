@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>CV Page</title>
+    </head>
+    <body>
+        <header class="header">
+            <img
+                class="avatar"
+                src="https://miro.medium.com/v2/resize:fit:566/format:webp/1*n-FPAObgPCDmxNKeGqyWvw.jpeg"
+                alt="my photo"
+            />
+            <h1 class="header__title">Name | CV</h1>
+            <h2 class="header__subtitle">Frontend Developer</h2>
+        </header>
+
+        <main>
+            <section class="skills">
+                <h3>Skills</h3>
+
+                <details>
+                    <summary>Skills list:</summary>
+
+                    <ol>
+                        <li>1. HTML</li>
+                        <li>2. CSS</li>
+                        <li>3. JS</li>
+                        <li>4. React</li>
+                        <li>5. TypeScript</li>
+                    </ol>
+                </details>
+            </section>
+
+            <article class="article">
+                <h4>Shor article about me</h4>
+
+                <p>
+                    Далеко-далеко, за словесными горами в стране гласных и
+                    согласных живут рыбные тексты. Дороге, вершину своих домах
+                    путь заманивший, бросил гор которой страна власти вопрос
+                    грамматики всеми единственное послушавшись имеет себя
+                    деревни текст злых. Рекламных деревни знаках снова грустный
+                    пустился не свой рот ему она эта, заглавных заголовок путь
+                    последний рыбного маленькая назад?
+                </p>
+            </article>
+
+            <section class="gallery">
+                <h3>Gallery</h3>
+
+                <img src="https://placehold.co/250x250" alt="placehold image" />
+                <img src="https://placehold.co/250x250" alt="placehold image" />
+                <img src="https://placehold.co/250x250" alt="placehold image" />
+            </section>
+
+            <hr class="separator" />
+
+            <section class="video">
+                <iframe
+                    src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e"
+                    title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </section>
+
+            <section class="hobby">
+                <h4>My hobbies</h4>
+                <details>
+                    <summary>Hobbies</summary>
+                    <ul>
+                        <li>Games</li>
+                        <li>UFC</li>
+                        <li>Coding</li>
+                    </ul>
+                </details>
+            </section>
+
+            <hr class="separator" />
+
+            <section class="ed">
+                <table class="ed__table">
+                    <thead>
+                        <tr>
+                            <th>Scool / University</th>
+                            <th>Profession</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>IT school 1</td>
+                            <td>Angular Dev</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>IT school 2</td>
+                            <td>React Dev</td>
+                            <td>2022</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot></tfoot>
+                </table>
+            </section>
+
+            <section class="quote">
+                <blockquote>Lorem ipsum dolor sit amet consectetur.</blockquote>
+            </section>
+
+            <section class="interaction">
+                <form
+                    action="https://ya.ru"
+                    class="form"
+                    method="get"
+                    target="_blank"
+                >
+                    <fieldset>
+                        <legend>Required fields:</legend>
+
+                        <label for="firstName-id">Frist Name: </label>
+                        <input
+                            type="text"
+                            class="form__control"
+                            name="firstName"
+                            id="firstName-id"
+                            placeholder="first name"
+                            required
+                        />
+
+                        <label for="lastName-id">Last Name: </label>
+                        <input
+                            type="text"
+                            class="form__control"
+                            name="lastName"
+                            id="lastName-id"
+                            placeholder="last name"
+                            required
+                        />
+
+                        <label for="email-id">Email: </label>
+                        <input
+                            type="email"
+                            class="form__control"
+                            name="email"
+                            id="email-id"
+                            placeholder="email"
+                            required
+                        />
+                    </fieldset>
+
+                    <textarea
+                        class="form_textarea form__control"
+                        name="questions"
+                        cols="30"
+                        rows="7"
+                        placeholder="write your questions"
+                    ></textarea>
+
+                    <button type="submit" class="form__submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <hr class="separator" />
+
+        <footer>
+            <address>
+                <a href="mailto:it@mail.ru" class="contacts__link"
+                    >it@mail.ru</a
+                >
+                <br />
+                <br />
+                <a href="tel:+123456778890" class="contacts__link"
+                    >+123456778890</a
+                >
+            </address>
+        </footer>
+    </body>
+</html>
